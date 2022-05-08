@@ -5,7 +5,7 @@
 <div class="footer">
     <p>Designed and developed by <br> Prathamesh Hatkar ©️ 2022</p>
     <div class="links">
-        <a>EMAIL</a>
+        <a use:link href='mailto:hatkar.prathameshd@gmail.com'>EMAIL</a>
         <a use:link href="https://twitter.com/PrathameshHatk2">TWITTER</a>
         <a>INSTAGRAM</a>
         <a use:link href="https://github.com/prathamesh8266">GITHUB</a>
