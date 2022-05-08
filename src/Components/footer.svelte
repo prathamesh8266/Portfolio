@@ -6,10 +6,10 @@
     <p>Designed and developed by <br> Prathamesh Hatkar ©️ 2022</p>
     <div class="links">
         <a use:link href='mailto:hatkar.prathameshd@gmail.com'>EMAIL</a>
-        <a use:link href="https://twitter.com/PrathameshHatk2">TWITTER</a>
-        <a>INSTAGRAM</a>
-        <a use:link href="https://github.com/prathamesh8266">GITHUB</a>
-        <a use:link href="https://www.linkedin.com/in/prathamesh-hatkar-b17aa8193/">LINKEDIN</a>
+        <a use:link href="https://twitter.com/PrathameshHatk2" target='_'>TWITTER</a>
+        <a use:link href='https://www.instagram.com/prathamesh_hatkar10/' target='_'>INSTAGRAM</a>
+        <a use:link href="https://github.com/prathamesh8266" target='_'>GITHUB</a>
+        <a use:link href="https://www.linkedin.com/in/prathamesh-hatkar-b17aa8193/" target='_'>LINKEDIN</a>
     </div>
 </div>
 
