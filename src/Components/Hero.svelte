@@ -16,11 +16,16 @@
     <p>
         I design and build beautiful websites for businesses around the globe. If you need a modern and powerful website, send me an email. If we are a good fit, I will give you a time and cost estimate.
     </p>
-    <Button link={"/"}/>
+     <div class="btn">
+        <Button link={"/"}/>
+     </div>
     <div class="scrollLabel">SCROLL</div>
 </div>
 
 <style>
+    .btn{
+        padding: 70px;
+    }
     .span{
         position:relative;
         display: inline-block;
@@ -46,6 +51,7 @@
         height: 100%;
     }
     .main{
+        position: relative;
         margin: 0;
         font-family: 'Abril Fatface';
         background-color:#f9efe7;
@@ -112,5 +118,83 @@
     }
     .highlight:hover > .h2::after{
         height: 60px;
+    }
+    @media screen and (max-width:950px){
+         .main{
+             padding: 0;
+             margin: 0;
+         }
+         h1{
+             padding: 15px;
+             margin: 0;
+         }
+         p{
+             padding: 15px;
+             margin-bottom: 20px;
+             margin: 0;
+         }
+         .btn{
+             padding: 30px;
+             padding-left: 20px;
+            margin: 0;
+         }
+         .scrollLabel{
+            bottom:70px;
+            right: 20px;
+         }
+    }
+    @media screen and (max-width:650px){
+        h1{
+             padding: 7px;
+             margin: 0;
+         }
+         p{
+             padding: 7px;
+             margin-bottom: 20px;
+             margin: 0;
+         }
+         .btn{
+             padding: 30px;
+             padding-left: 20px;
+            margin: 0;
+         }
+    .span{
+        height: 49px;
+        width: 250px;
+        margin-bottom: -12px;
+    }
+    .highlight{
+        margin-top: 10px;
+        position: relative;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+    .highlight .h2{
+        position: absolute;
+        z-index: 10;
+    }
+    .h2::after{
+        position: absolute;
+        bottom: 0px;
+        left:0px;
+        content: "";
+        height: 15px;
+        width: 100%;
+        background-color:#ffe872;
+        z-index: -1;
+        transition:all 0.3s
+    }
+    .highlight:hover > .h2::after{
+        height: 45px;
+    }
+        h1{
+            font-size: 40px;
+        }
+        p{
+            text-overflow:ellipsis;
+        }
+        .scrollLabel{
+            display: none;
+        }
     }
 </style>

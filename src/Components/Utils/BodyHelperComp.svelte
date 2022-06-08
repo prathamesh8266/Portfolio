@@ -9,21 +9,25 @@
 
 <div class="mainHolder">
     <div class="left">
-        <p class="p1">LATEST WORK</p>
         <h1>{websiteName}</h1>
         <div class="card">
             <Card answer={"Web design"}/>
         </div>
         <p class="p2">{description}</p>
-        <Button class="btn" linkAdd={link}/>
+        <div class="btn">
+            <Button linkAdd={link}/>
+        </div>
     </div>
     <div class="right">
-        <img src={image} class="img"/>
+        <img src={image} class="img" alt="right-view"/>
     </div>
 </div>
 
 
 <style>
+    .btn{
+        margin: 40px 0;
+    }
     .mainHolder{
         display: flex;
         align-items: center;
@@ -36,11 +40,6 @@
         flex-direction:column;
         display: flex;
         align-items: space-around;
-    }
-    .p1{
-        font-weight: 600;
-        letter-spacing: 1px;
-        color: rgb(201, 201, 201);
     }
     .left .p1,.p2{
         margin: 10px 0;
@@ -65,5 +64,22 @@
     }
     .img{
         cursor:pointer;
+        width: 500px;
+    }
+    @media screen and (max-width:1080px){
+        .btn{
+            margin: auto;
+            margin-bottom: 50px;
+            margin-top: 20px;
+        }
+        .mainHolder{
+            flex-direction: column-reverse;
+        }
+        .left{
+            padding: 0px;
+        }
+        .img{
+            width: 100%;
+        }
     }
 </style>

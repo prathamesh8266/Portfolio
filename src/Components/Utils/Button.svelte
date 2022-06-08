@@ -1,9 +1,7 @@
 <script>
     import {link} from "svelte-spa-router";
     export let linkAdd;
-    const address = `document.location.href='${linkAdd}'`;
     const add2 = `window.open('${linkAdd}https')`;
-    console.log(linkAdd);
 </script>
 
 <div class="btnContainer">
@@ -19,7 +17,6 @@
         color: green;
         height: 60px;
         width: 200px;
-        margin: 70px;
     }
     .btnBack{
         position: absolute;

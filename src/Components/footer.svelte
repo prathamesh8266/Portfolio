@@ -16,6 +16,7 @@
 <style>
     .footer{
         background-color: #f9efe7;
+        /* background-color: black; */
         padding: 50px 20px;
         display: flex;
         align-items: center;
