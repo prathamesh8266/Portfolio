@@ -38,13 +38,13 @@
         </div>
     </div>
     <div class="mobileHighlight">
-        <div class="highlight">
+        <div class="highlight1">
             <a use:link href="/personal" class="h2">about me</a>
         </div>
-        <div class="highlight">
+        <div class="highlight1">
             <a use:link href="/personal" class="h2">my work</a>
         </div>
-        <div class="highlight">
+        <div class="highlight1">
             <a use:link href="/personal" class="h2">get in touch</a>
         </div>
     </div>
@@ -138,12 +138,13 @@
          .elements{
              display: none;
          }
-         .mobileHighlight{
+         .mobileHighlight{           
              background-color: rgba(202, 202, 202, 0.291);
              height: 70px;
-             display: flex;
+             /* display: flex; */
              justify-content: space-around;
              align-items: center;
+             display: none;
          }
          .highlight{
             text-align: center;

@@ -73,6 +73,7 @@
             margin-top: 20px;
         }
         .mainHolder{
+            padding: 10px;
             flex-direction: column-reverse;
         }
         .left{
