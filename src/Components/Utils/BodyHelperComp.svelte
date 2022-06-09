@@ -5,13 +5,14 @@
     export let description;
     export let image;
     export let link;
+    export let answer;
 </script>
 
 <div class="mainHolder">
+    <h1>{websiteName}</h1>
     <div class="left">
-        <h1>{websiteName}</h1>
         <div class="card">
-            <Card answer={"Web design"}/>
+            <Card answer={answer}/>
         </div>
         <p class="p2">{description}</p>
         <div class="btn">

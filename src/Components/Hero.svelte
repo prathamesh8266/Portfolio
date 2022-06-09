@@ -34,6 +34,7 @@
         margin-bottom: -12px;
     }
     .span .text {
+        display: block;
         z-index: 10;
         position: absolute;
         width: max-content;
