@@ -141,11 +141,16 @@
          .mobileHighlight{           
              background-color: rgba(202, 202, 202, 0.291);
              height: 70px;
-             /* display: flex; */
-             justify-content: space-around;
+             justify-content: space-between;
              align-items: center;
              display: none;
          }
+         .highlight1 > .h2{
+           padding: 10px;
+        }
+        .highlight1 > .h2:hover{
+            background-color: rgb(225, 225, 225);
+        }
          .highlight{
             text-align: center;
             padding: 20px 0 ;

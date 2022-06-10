@@ -16,15 +16,18 @@
 <style>
     .footer{
         background-color: #f9efe7;
-        /* background-color: black; */
         padding: 50px 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
+    .links{
+        display: flex;
+    }
     .links a{
         color: black;
         text-decoration:none;
+        padding: 10px;
         margin: 0 30px;
         font-family: 'montserrat';
         font-weight: 500;
@@ -32,5 +35,10 @@
     }
     a:hover{
         color: rebeccapurple;
+    }
+    @media screen and (max-width:870px){
+        .links{
+        flex-direction: column;
+    }
     }
 </style>

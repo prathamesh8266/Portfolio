@@ -145,13 +145,10 @@
          }
     }
     @media screen and (max-width:650px){
-        h1{
-             padding: 7px;
-             margin: 0;
-         }
          p{
              padding: 7px;
-             margin-bottom: 20px;
+             margin-bottom: 30px;
+             font-size: 15px;
              margin: 0;
          }
          .btn{

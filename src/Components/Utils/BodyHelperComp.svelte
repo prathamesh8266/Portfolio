@@ -8,24 +8,27 @@
     export let answer;
 </script>
 
+<h1>{websiteName}</h1>
 <div class="mainHolder">
-    <h1>{websiteName}</h1>
-    <div class="left">
-        <div class="card">
-            <Card answer={answer}/>
+        <div class="left">
+            <div class="card">
+                <Card answer={answer}/>
+            </div>
+            <p class="p2">{description}</p>
+            <div class="btn">
+                <Button linkAdd={link}/>
+            </div>
         </div>
-        <p class="p2">{description}</p>
-        <div class="btn">
-            <Button linkAdd={link}/>
+        <div class="right">
+            <img src={image} class="img" alt="right-view"/>
         </div>
-    </div>
-    <div class="right">
-        <img src={image} class="img" alt="right-view"/>
-    </div>
 </div>
 
 
 <style>
+    h1{
+        padding-left: 50px;
+    }
     .btn{
         margin: 40px 0;
     }
@@ -68,6 +71,10 @@
         width: 500px;
     }
     @media screen and (max-width:1080px){
+        h1{
+           padding-left: 0;
+            text-align: center;
+        }
         .btn{
             margin: auto;
             margin-bottom: 50px;
