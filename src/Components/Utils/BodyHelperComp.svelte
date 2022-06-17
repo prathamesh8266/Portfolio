@@ -35,7 +35,7 @@
     .mainHolder{
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content:space-between;
         flex:1;
     }
     .left{
@@ -64,7 +64,7 @@
         width:100%;
         display:flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
     }
     .img{
         cursor:pointer;

@@ -19,7 +19,7 @@
                 <a use:link href="/personal" class="h2">about me</a>
             </div>
             <div class="highlight">
-                <a use:link href="/personal" class="h2">my work</a>
+                <a use:link href="/MyWork" class="h2">my work</a>
             </div>
             <div class="highlight">
                 <a use:link href="/personal" class="h2">get in touch</a>
@@ -42,7 +42,7 @@
             <a use:link href="/personal" class="h2">about me</a>
         </div>
         <div class="highlight1">
-            <a use:link href="/personal" class="h2">my work</a>
+            <a use:link href="/MyWork" class="h2">my work</a>
         </div>
         <div class="highlight1">
             <a use:link href="/personal" class="h2">get in touch</a>
