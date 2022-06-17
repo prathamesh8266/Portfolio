@@ -13,7 +13,7 @@
         font-size: 20px;
         font-weight: 600;
         letter-spacing: 1px;
-        color: rgb(201, 201, 201);
+        color: rgb(0, 0, 0);
     }
     @media screen and (max-width:1080px){
         .p1{
